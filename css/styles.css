@@ -22,10 +22,14 @@
 }
 
 html {
+    max-width: 100%;
+    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
 body {
+    max-width: 100%;
+    overflow-x: hidden;
     margin: 0;
     color: var(--ink);
     background: var(--page);
@@ -352,6 +356,7 @@ h3 {
 }
 
 h1 {
+    width: 100%;
     max-width: 720px;
     color: var(--white);
     font-size: clamp(40px, 6.7vw, 74px);
@@ -1435,7 +1440,9 @@ h3 {
     }
 
     h1 {
-        font-size: 34px;
+        max-width: 100%;
+        font-size: clamp(28px, 7.4vw, 31px);
+        line-height: 1.08;
     }
 
     h2 {
