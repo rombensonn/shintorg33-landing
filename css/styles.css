@@ -390,6 +390,10 @@ h3 {
     font-size: 16px;
 }
 
+.hero-lead span {
+    display: block;
+}
+
 .hero-actions {
     display: flex;
     flex-wrap: wrap;
